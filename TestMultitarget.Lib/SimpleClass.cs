@@ -6,5 +6,10 @@
         {
             return a + b;
         }   
+
+        public void ShowControl()
+        {
+            
+        }
     }
 }
