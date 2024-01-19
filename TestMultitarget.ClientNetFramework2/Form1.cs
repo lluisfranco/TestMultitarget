@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TestMultitarget.SdkProject;
+using TestMultitarget.Lib;
 
 namespace TestMultitarget.ClientNetFramework2
 {
@@ -18,9 +18,11 @@ namespace TestMultitarget.ClientNetFramework2
             InitializeComponent();
             button1.Click += (s, e) =>
             {
-                var w = new SimpleClassWrapper();
-                w.GetSimpleClass().ShowForm();
+                //var w = new SimpleClassWrapper();
+                //w.GetSimpleClass().ShowForm();
 
+                var ss = new SimpleClass();
+                ss.ShowForm();
             };
         }
     }

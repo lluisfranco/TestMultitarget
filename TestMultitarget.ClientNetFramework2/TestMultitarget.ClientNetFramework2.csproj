@@ -58,10 +58,6 @@
       <Project>{107e1520-eea0-48fd-8cf1-afefcd8d95ac}</Project>
       <Name>TestMultitarget.Lib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TestMultitarget.SdkProject\TestMultitarget.SdkProject.csproj">
-      <Project>{20e9d8b6-730f-437b-b1a5-929182569eef}</Project>
-      <Name>TestMultitarget.SdkProject</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">

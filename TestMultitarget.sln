@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMultitarget.ClientNetFr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "old", "old", "{3ED410A1-3330-456A-A8B2-9F1951EAFE6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMultitarget.SdkProject", "TestMultitarget.SdkProject\TestMultitarget.SdkProject.csproj", "{20E9D8B6-730F-437B-B1A5-929182569EEF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,10 +35,6 @@ Global
 		{ED19DA3F-6BC4-4326-A9E8-C7BCDA41C543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED19DA3F-6BC4-4326-A9E8-C7BCDA41C543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED19DA3F-6BC4-4326-A9E8-C7BCDA41C543}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20E9D8B6-730F-437B-B1A5-929182569EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20E9D8B6-730F-437B-B1A5-929182569EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20E9D8B6-730F-437B-B1A5-929182569EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20E9D8B6-730F-437B-B1A5-929182569EEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
