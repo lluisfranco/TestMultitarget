@@ -1,4 +1,6 @@
-﻿namespace TestMultitarget.Lib
+﻿using System.Drawing;
+
+namespace TestMultitarget.Lib
 {
     public class SimpleClass
     {
@@ -7,9 +9,10 @@
             return a + b;
         }   
 
-        public void ShowControl()
+        public void ShowForm()
         {
-            
+            var f = new XtraForm1();
+            f.ShowDialog();
         }
     }
 }

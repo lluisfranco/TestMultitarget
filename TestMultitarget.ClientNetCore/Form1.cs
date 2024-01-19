@@ -9,7 +9,9 @@ namespace TestMultitarget.ClientNetCore
             InitializeComponent();
             button1.Click += (s, e) =>
             {
-                MessageBox.Show(new SimpleClass().Sum(2, 2).ToString());
+                new SimpleClass().ShowForm();
+                //MessageBox.Show(new SimpleClass().Sum(2, 2).ToString());
+
             };
         }
     }
